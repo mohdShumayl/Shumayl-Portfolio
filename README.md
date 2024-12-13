@@ -40,5 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 - Created - 2024-12-14
 - Code by me
-- Technologies Used - Html , css , JavaScript , React, next
+- Technologies Used - Tailwind , JavaScript , React, next
 - How to reach me : with my [linkedin](https://www.linkedin.com/in/zahra-karami-7643ba231/)
