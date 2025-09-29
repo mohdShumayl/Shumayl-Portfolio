@@ -1,5 +1,5 @@
 ## Mohd Shumayl portfolio website
-![Shumayl Portfolio Screenshot](assets/hero/website.jpg)
+![Shumayl Portfolio Screenshot](https://github.com/mohdShumayl/Shumayl-Portfolio/blob/main/public/assets/hero/website.jpg)
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https:).
