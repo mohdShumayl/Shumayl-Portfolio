@@ -1,5 +1,5 @@
 ## Mohd Shumayl portfolio website
-![Shumayl Portfolio Screenshot](assets/readme.png)
+![Shumayl Portfolio Screenshot](/assets/readme.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https:).
 
