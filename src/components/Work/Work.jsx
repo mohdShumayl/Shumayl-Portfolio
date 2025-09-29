@@ -6,59 +6,16 @@ import Workitem from "./Workitem"
 
 const data = [
   {
-    href: 'https://github.com/zahrakrmi/project-with-tailwind',
-    categoty: 'HtmlCss',
-    img: '/assets/work/css1.jpg',
-    title: 'WebSite With Tailwind',
+    href: 'https://github.com/mohdShumayl/Bloghive',
+    categoty: 'FullStack',
+    img: '/assets/work/blogHive.png',
+    title: 'BlogHive',
   },
   {
-    href: 'https://github.com/zahrakrmi/adminpanel',
-    categoty: 'React',
-    img: '/assets/work/react1.png',
-    title: 'AdminPanel',
-  },
-  {
-    href: 'https://github.com/zahrakrmi/WeatherApi2',
-    categoty: 'JavaScript',
-    img: '/assets/work/js1.png',
-    title: 'Weather',
-  },
-  {
-    href: 'https://github.com/zahrakrmi/Shop-with-Bootstrap',
-    categoty: 'HtmlCss',
-    img: '/assets/work/css2.jpg',
-    title: 'WebSite With BootStrap',
-  },
-  {
-    href: 'https://github.com/zahrakrmi/music-player-js',
-    categoty: 'JavaScript',
-    img: '/assets/work/js5.jpg',
-    title: 'MusicPlayer',
-  },
-  {
-    href: 'https://github.com/zahrakrmi/SignUp-Login',
-    categoty: 'JavaScript',
-    img: '/assets/work/js4.png',
-    title: 'Login/SignUn',
-  },
-  {
-    href: 'https://zahrakrmi.github.io/shop/',
-    categoty: 'HtmlCss',
-    img: '/assets/work/css3.jpg',
-    title: 'Shop',
-  },
-  {
-    href: 'https://github.com/zahrakrmi/ApiShop',
-    categoty: 'JavaScript',
-    img: '/assets/work/js2.png',
-    title: 'Shop Api',
-  },
-
-  {
-    href: 'https://github.com/zahrakrmi/Api',
-    categoty: 'JavaScript',
-    img: '/assets/work/js3.png',
-    title: 'coinmarketcap',
+    href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
+    categoty: 'React.js | Next.js',
+    img: '/assets/work/portfolio.png',
+    title: 'Portfolio',
   },
 ]
 function Work() {

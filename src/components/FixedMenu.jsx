@@ -49,7 +49,7 @@ function FixedMenu() {
                                             <FiMapPin />
                                         </div>
                                         <p className='font-semibold text-primary text-lg'>Location</p>
-                                        <p>Tehran, Iran</p>
+                                        <p>LKO, India</p>
                                     </div>
                                     {/* /////////phone./////// */}
                                     <div className="flex flex-col">
@@ -57,7 +57,7 @@ function FixedMenu() {
                                             <FiPhoneCall />
                                         </div>
                                         <p className='font-semibold text-primary text-lg'>Phone</p>
-                                        <p>0905605****</p>
+                                        <p>+91-8090465032</p>
                                     </div>
                                     {/* /////////email./////// */}
                                     <div className="flex flex-col">
@@ -65,7 +65,7 @@ function FixedMenu() {
                                             <FiMail />
                                         </div>
                                         <p className='font-semibold text-primary text-lg'>Email</p>
-                                        <p>Zkrmy23@gmail.com</p>
+                                        <p>shumail582k@gmail.com</p>
                                     </div>
                                 </div>
                                 {/* /////////Socials/////// */}

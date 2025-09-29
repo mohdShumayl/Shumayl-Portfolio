@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Mohd Shumayl portfolio website
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https:).
 
 ## Getting Started
 
@@ -36,9 +38,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
  --------------------------------------------------------------------------
-- [Demo Project](https://website-portfolio-blond-eight.vercel.app/)
+- [Demo Project](https://)
 
 - Created - 2024-12-14
 - Code by me
 - Technologies Used - Tailwind , JavaScript , React, next
-- How to reach me : with my [linkedin](https://www.linkedin.com/in/zahra-karami-7643ba231/)
+- How to reach me : with my [linkedin](https://www.linkedin.com/in/shumayl-dev/)

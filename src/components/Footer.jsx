@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="container mx-auto">
             <div className="flex flex-col xl:flex-row items-center justify-between ">
                 <Logo light={true}/>
-                <div className="font-light text-white">Copyright &copy; 2024,All right reserved.</div>
+                <div className="font-light text-white">Copyright &copy; 2025,All right reserved.</div>
             </div>
         </div>
     </footer>

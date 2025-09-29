@@ -1,18 +1,21 @@
 "use client"
 import Link from "next/link"
-import {FaLinkedin} from "react-icons/fa"
-import {RiInstagramFill} from "react-icons/ri"
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 
-const socials=[
-    {
-    icon:<RiInstagramFill />,
-    path: ''
-},
-
-    {
-    icon:<FaLinkedin />,
-    path: ''
-}
+const socials = [
+  {
+    icon: <RiInstagramFill />,
+    path: 'https://www.instagram.com/m.shumayll',
+  },
+  {
+    icon: <FaLinkedin />,
+    path: 'https://www.linkedin.com/in/shumayl-dev/',
+  },
+  {
+    icon: <FaGithub />,
+    path: 'https://github.com/mohdShumayl',
+  }
 ];
 
 function Socials({containerStyles, iconStyle}) {

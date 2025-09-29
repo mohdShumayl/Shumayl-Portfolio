@@ -4,8 +4,9 @@ import AnimatedText from "./AnimatedText"
 import Image from "next/image"
 import { FaCheckCircle } from "react-icons/fa"
 
+
 function Contact() {
-  const [state, handleSubmit] = useForm("mdkovvpd"); 
+  const [state, handleSubmit] = useForm("mvgwkdaj"); 
   const [formData, setFormData] = useState({
     firstname: '',
     lastname: '',
@@ -73,7 +74,7 @@ function Contact() {
                   <label htmlFor="email" className="block mb-2 text-sm font-medium text-primary">
                     Email <span className="text-slate-400">*</span>
                   </label>
-                  <input onChange={handleChange} type="text" id="email" name='email' value={formData.email} className="input" placeholder="Example*: zkrmy23@gmail.com" required />
+                  <input onChange={handleChange} type="text" id="email" name='email' value={formData.email} className="input" placeholder="Example@gmail.com" required />
                   <ValidationError  prefix="Email" field="email" errors={state.errors}/>
                 </div>
               <div>
@@ -105,7 +106,7 @@ function Contact() {
             </form>
           </div>
           <div className="hidden xl:flex relative w-[577px] h-[664px] rounded-lg overflow-hidden">
-            <Image src='/assets/contact/2.jpg' className="object-cover" fill quality={100} alt=""/>
+            <Image src='/assets/contact/2.gif' className="object-cover" fill quality={100} alt=""/>
 
           </div>
         </div>

@@ -1,28 +1,30 @@
 import Image from "next/image"
 
 const Services = () => {
-  const services=[
-    {
-      icon:'assets/services/icon-1.svg',
-      title:'UI UX Designer',
-      description:'Designing comelling engaging user experiences'
+  const services = [
+  {
+    icon: 'assets/services/icon-1.svg',
+    title: 'Responive UI',
+    description: 'Designing compelling and engaging user experiences with modern design principles.'
   },
-    {
-      icon:'assets/services/icon-2.svg',
-      title:'Web Development',
-      description:'Web development is the process of creating and maintaining websites '
+  {
+    icon: 'assets/services/icon-2.svg',
+    title: 'Web Development',
+    description: 'Building and maintaining responsive, high-performance, and scalable websites.'
   },
-    {
-      icon:'assets/services/icon-3.svg',
-      title:'E-commerce',
-      description:'E-commerce refers to the buying and selling of goods and services over the internet'
+  {
+    icon: 'assets/services/ios.svg',
+    title: 'iOS Development',
+    description: 'Developing high-quality iOS applications using Swift and UIKit for seamless user experiences.'
   },
-    {
-      icon:'assets/services/icon-4.svg',
-      title:'Care & Support',
-      description:'refers to services or assistance provided to individuals to meet their needs, whether its related to health, emotional well-being, or technical support',
-  },
-]
+  {
+    icon: 'assets/services/hosting.svg',
+    title: 'AWS Hosting',
+    description: 'Providing reliable cloud hosting solutions using AWS for scalability and efficiency.'
+  }
+];
+
+
   return (
     <section className='relative z-40'>
       <div className="container mx-auto">
