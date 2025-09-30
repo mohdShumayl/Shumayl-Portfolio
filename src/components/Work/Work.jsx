@@ -12,11 +12,23 @@ const data = [
     title: 'BlogHive',
   },
   {
+    href: 'https://github.com/mohdShumayl/shortly',
+    categoty: 'FullStack',
+    img: '/assets/work/shortly.png',
+    title: 'BlogHive',
+  },
+  {
     href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
     categoty: 'React.js | Next.js',
     img: '/assets/work/portfolio.png',
     title: 'Portfolio',
   },
+  {
+    href: 'https://github.com/mohdShumayl',
+    categoty: 'iOS',
+    img: '/assets/work/ios.png',
+    title: 'BlogHive',
+  }
 ]
 function Work() {
   const uniqueCategories = Array.from(new Set(data.map((item) => item.categoty)))
