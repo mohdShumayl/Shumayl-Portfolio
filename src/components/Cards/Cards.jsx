@@ -14,6 +14,7 @@ const skillsData = [
       { name: "JavaScript (ES6+)", level: 88 },
       { name: "React.js", level: 85 },
       { name: "Next.js", level: 80 },
+      { name: "Wordpress", level: 55 },
     ],
   },
   {
@@ -60,6 +61,7 @@ const skillsData = [
     section: "Other Skills",
     skills: [
       { name: "Figma", level: 90 },
+      { name: "Visual Composer", level: 90 },
       { name: "Problem Solving", level: 85 },
       { name: "Collaboration", level: 80 },
       { name: "Adaptability", level: 82 },
