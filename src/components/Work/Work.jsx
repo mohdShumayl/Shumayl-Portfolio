@@ -19,15 +19,27 @@ const data = [
   },
   {
     href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
-    categoty: 'React.js | Next.js',
+    categoty: 'Next.js',
     img: '/assets/work/portfolio.png',
     title: 'Portfolio',
   },
   {
     href: 'https://github.com/mohdShumayl',
+    categoty: 'React.js ',
+    img: '/assets/work/sensai.png',
+    title: 'SensAI',
+  },
+  {
+    href: 'https://github.com/mohdShumayl',
     categoty: 'iOS',
     img: '/assets/work/ios.png',
-    title: 'BlogHive',
+    title: 'iOS App',
+  },
+  {
+    href: 'https://github.com/mohdShumayl',
+    categoty: 'iOS',
+    img: '/assets/work/ios2.png',
+    title: 'iOS App',
   }
 ]
 function Work() {
@@ -53,10 +65,22 @@ function Work() {
           <div className="flex flex-col xl:flex-row items-center xl:items-start xl:justify-between mb-[30px]">
             <AnimatedText text='My Latest Work'
               textStyles='h2 mb-[30px] xl:mb-0' />
-            <TabsList className="max-w-max h-full mb-[30px] flex flex-col md:flex-row gap-4 md:gap-0 ">
+            <TabsList
+              className="
+                grid grid-cols-3 gap-2 
+                sm:grid-cols-3 sm:gap-3 
+                md:flex md:flex-row md:gap-0 
+                max-w-full h-full mb-[30px]
+              "
+            >
               {tabData.map((item, index) => {
                 return (
-                  <TabsTrigger key={index} value={item.categoty} className="capitalize w-[90px]" onClick={() => setTabValue(item.categoty)}>
+                  <TabsTrigger
+                    key={index}
+                    value={item.categoty}
+                    className="capitalize text-sm sm:text-base w-full"
+                    onClick={() => setTabValue(item.categoty)}
+                  >
                     {item.categoty}
                   </TabsTrigger>
                 )
@@ -67,11 +91,11 @@ function Work() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
               <AnimatePresence>
                 {filterWork.slice(0, visibleItems).map((item, index) => (
-                   <motion.div key={index}>
-                   <Workitem {...item}/>
-                 </motion.div>
+                  <motion.div key={index}>
+                    <Workitem {...item} />
+                  </motion.div>
                 )
-                 
+
                 )}
               </AnimatePresence>
             </div>

@@ -1785,10 +1785,34 @@ const data = [
         title: 'BlogHive'
     },
     {
+        href: 'https://github.com/mohdShumayl/shortly',
+        categoty: 'FullStack',
+        img: '/assets/work/shortly.png',
+        title: 'BlogHive'
+    },
+    {
         href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
-        categoty: 'React.js | Next.js',
+        categoty: 'Next.js',
         img: '/assets/work/portfolio.png',
         title: 'Portfolio'
+    },
+    {
+        href: 'https://github.com/mohdShumayl',
+        categoty: 'React.js ',
+        img: '/assets/work/sensai.png',
+        title: 'SensAI'
+    },
+    {
+        href: 'https://github.com/mohdShumayl',
+        categoty: 'iOS',
+        img: '/assets/work/ios.png',
+        title: 'iOS App'
+    },
+    {
+        href: 'https://github.com/mohdShumayl',
+        categoty: 'iOS',
+        img: '/assets/work/ios2.png',
+        title: 'iOS App'
     }
 ];
 function Work() {
@@ -1821,32 +1845,32 @@ function Work() {
                                 textStyles: "h2 mb-[30px] xl:mb-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 42,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsList"], {
-                                className: "max-w-max h-full mb-[30px] flex flex-col md:flex-row gap-4 md:gap-0 ",
+                                className: "   grid grid-cols-3 gap-2    sm:grid-cols-3 sm:gap-3    md:flex md:flex-row md:gap-0    max-w-full h-full mb-[30px]   ",
                                 children: tabData.map((item, index)=>{
                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                         value: item.categoty,
-                                        className: "capitalize w-[90px]",
+                                        className: "capitalize text-sm sm:text-base w-full",
                                         onClick: ()=>setTabValue(item.categoty),
                                         children: item.categoty
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 47,
+                                        lineNumber: 78,
                                         columnNumber: 19
                                     }, this);
                                 })
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 44,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 41,
+                        lineNumber: 65,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1860,43 +1884,43 @@ function Work() {
                                             ...item
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Work/Work.jsx",
-                                            lineNumber: 59,
-                                            columnNumber: 20
+                                            lineNumber: 95,
+                                            columnNumber: 21
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 58,
-                                        columnNumber: 20
+                                        lineNumber: 94,
+                                        columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 56,
+                                lineNumber: 92,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Work.jsx",
-                            lineNumber: 55,
+                            lineNumber: 91,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 54,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work/Work.jsx",
-                lineNumber: 40,
+                lineNumber: 64,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Work/Work.jsx",
-            lineNumber: 39,
+            lineNumber: 63,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Work/Work.jsx",
-        lineNumber: 38,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
