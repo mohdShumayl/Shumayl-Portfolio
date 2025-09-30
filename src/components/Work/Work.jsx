@@ -15,7 +15,13 @@ const data = [
     href: 'https://github.com/mohdShumayl/shortly',
     categoty: 'FullStack',
     img: '/assets/work/shortly.png',
-    title: 'BlogHive',
+    title: 'Shortly',
+  },
+  {
+    href: 'https://github.com/mohdShumayl/chatApp/',
+    categoty: 'FullStack',
+    img: '/assets/work/chatAPP.png',
+    title: 'Chat App',
   },
   {
     href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
