@@ -20,7 +20,7 @@ const data = [
   {
     href: 'https://github.com/mohdShumayl/chatApp/',
     categoty: 'FullStack',
-    img: '/assets/work/chatAPP.png',
+    img: '/assets/work/chatApp.png',
     title: 'Chat App',
   },
   {
