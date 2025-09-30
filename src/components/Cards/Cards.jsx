@@ -1,74 +1,111 @@
-import React from 'react';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '../../components/ui/tabs';
-import { FaGraduationCap } from 'react-icons/fa';
+import React from "react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../components/ui/tabs";
+import { FaGraduationCap } from "react-icons/fa";
 
-// Skills data
+// Skills data with proficiency
 const skillsData = [
   {
-    section: 'Frontend',
-    skills: ['HTML and CSS', 'Responsive Web Design', 'Tailwind', 'Bootstrap', 'JavaScript (ES6+)', 'jQuery', 'React.js', 'Next.js'],
+    section: "Frontend",
+    skills: [
+      { name: "HTML & CSS", level: 90 },
+      { name: "Responsive Web Design", level: 96 },
+      { name: "Tailwind", level: 80 },
+      { name: "Bootstrap", level: 96 },
+      { name: "JavaScript (ES6+)", level: 88 },
+      { name: "React.js", level: 85 },
+      { name: "Next.js", level: 80 },
+    ],
   },
   {
-    section: 'Backend',
-    skills: ['Node.js', 'MVC', 'Express.js', 'TypeScript', 'EJS', 'Authentication & Authorization (JWT)', 'Databases (MongoDB, MySQL)', 'RESTful APIs', 'Postman', 'websockets', 'PHP & WordPress (Beginner)'],
+    section: "Backend",
+    skills: [
+      { name: "Node.js", level: 85 },
+      { name: "Express.js", level: 92 },
+      { name: "TypeScript", level: 75 },
+      { name: "EJS", level: 80 },
+      { name: "JWT Auth", level: 90 },
+      { name: "MongoDB / MySQL", level: 85 },
+      { name: "RESTful APIs", level: 90 },
+      { name: "WebSockets", level: 80 },
+    ],
   },
   {
-    section: 'Version Control',
-    skills: ['Git', 'GitHub', 'Bitbucket'],
+    section: "DevOps & Cloud",
+    skills: [
+      { name: "AWS EC2", level: 80 },
+      { name: "AWS Lambda", level: 65 },
+      { name: "Docker", level: 85 },
+      { name: "CI/CD", level: 60 },
+      { name: "Cloudflare DNS", level: 70 },
+    ],
   },
   {
-    section: 'DevOps & Cloud',
-    skills: ['AWS EC2', 'Docker', 'CI/CD', 'Cloudflare DNS'],
+    section: "Version Control",
+    skills: [
+      { name: "Git", level: 90 },
+      { name: "GitHub", level: 88 },
+      { name: "Bitbucket", level: 75 },
+    ],
+  },
+
+  {
+    section: "iOS Development",
+    skills: [
+      { name: "Xcode", level: 60 },
+      { name: "UIKit", level: 55 },
+      { name: "Swift", level: 50 },
+    ],
   },
   {
-    section: 'iOS Development',
-    skills: ['Xcode', 'UIKit', 'Swift'],
-  },
-  {
-    section: 'Other Skills',
-    skills: ['Visual Composer', 'Figma', 'Problem-Solving', 'Collaboration', 'Adaptability', 'Time Management'],
+    section: "Other Skills",
+    skills: [
+      { name: "Figma", level: 90 },
+      { name: "Problem Solving", level: 85 },
+      { name: "Collaboration", level: 80 },
+      { name: "Adaptability", level: 82 },
+      { name: "Time Management", level: 85 },
+    ],
   },
 ];
 
-// Experience data
 const experienceData = [
   {
-    title: 'Full Stack Developer',
-    company: 'Meesap Technologies',
-    location: 'Lucknow, India',
-    duration: 'Jan 2024 - Present',
-    description: 'A technology company specializing in innovative development solutions.',
+    title: "Full Stack Developer",
+    company: "Meesap Technologies",
+    location: "Lucknow, India",
+    duration: "Jan 2024 - Present",
+    description: "A technology company specializing in innovative development solutions.",
     achievements: [
-      'Managed feature design collaborations, ensuring 99% client satisfaction.',
-      'Mentored junior developers, introducing pair programming techniques to increase team efficiency by 30%.',
-      'Deployed backend APIs using Express.js, improving interoperability and increasing data processing speed by 25%.',
-      'Rebuilt and modernized 4 travel portals with Next.js, improving load speed by 45% and achieving 99.9% uptime on AWS.',
-      'Improved project delivery speed by participating in Agile sprints, ensuring 100% on-time delivery of software releases.',
+      "Managed feature design collaborations, ensuring 99% client satisfaction.",
+      "Mentored junior developers, introducing pair programming techniques to increase team efficiency by 30%.",
+      "Deployed backend APIs using Express.js, improving interoperability and increasing data processing speed by 25%.",
+      "Rebuilt and modernized 4 travel portals with Next.js, improving load speed by 45% and achieving 99.9% uptime on AWS.",
+      "Improved project delivery speed by participating in Agile sprints, ensuring 100% on-time delivery of software releases.",
     ],
   },
   {
-    title: 'Full Stack Developer Intern',
-    company: 'Meesap Technologies',
-    location: 'Lucknow, India',
-    duration: 'Jul 2023 - Jan 2024',
-    description: 'An internship focused on developing iOS applications and MERN stack projects.',
+    title: "Full Stack Developer Intern",
+    company: "Meesap Technologies",
+    location: "Lucknow, India",
+    duration: "Jul 2023 - Jan 2024",
+    description: "An internship focused on developing iOS applications and MERN stack projects.",
     achievements: [
-      'Developed and maintained iOS applications using Swift and UIKit, integrating RESTful APIs to enhance functionality and performance.',
-      'Developed user interfaces with HTML, CSS, React.js and Bootstrap/Tailwind CSS.',
-      'Gained hands-on experience in MERN Stack (MongoDB, Express.js, React.js, Node.js) through intensive training.',
-      'Designed RESTful APIs, increasing system efficiency by 25% through Express.js and Node.js.',
-      'Participated in testing and debugging processes and improving user experience.',
+      "Developed and maintained iOS applications using Swift and UIKit, integrating RESTful APIs.",
+      "Built UIs with React.js, Tailwind & Bootstrap.",
+      "Hands-on experience in MERN Stack (MongoDB, Express.js, React.js, Node.js).",
+      "Designed RESTful APIs, improving system efficiency by 25%.",
+      "Tested & debugged applications for better user experience.",
     ],
   },
 ];
 
-// Education data
 const educationData = [
   {
-    degree: 'Bachelor of Computer Applications (BCA)',
-    institution: 'IGNOU, Delhi',
-    duration: '2020-2023',
-    description: 'Completed Bachelor of Computer Applications (BCA) from IGNOU, Delhi, graduating with First Division.',
+    degree: "Bachelor of Computer Applications (BCA)",
+    institution: "IGNOU, Delhi",
+    duration: "2020-2023",
+    description:
+      "Completed Bachelor of Computer Applications (BCA) from IGNOU, Delhi, graduating with First Division.",
     icon: <FaGraduationCap />,
   },
 ];
@@ -86,20 +123,38 @@ const Cards = () => {
 
           {/* Skills Tab */}
           <TabsContent value="skills" className="w-full">
-            <div className="space-y-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {skillsData.map((group) => (
-                <div key={group.section}>
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-gray-200 pb-2">
+                <div
+                  key={group.section}
+                  className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow"
+                >
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
                     {group.section}
                   </h3>
-                  <div className="flex flex-wrap gap-3">
+                  <div className="space-y-6">
                     {group.skills.map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-4 py-2 bg-gray-200 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-300 transition-colors"
-                      >
-                        {skill}
-                      </span>
+                      <div key={skill.name}>
+                        <div className="flex justify-between items-center mb-1">
+                          {/* Skill name */}
+                          <span className="text-sm font-medium text-gray-800">{skill.name}</span>
+                          {/* Percentage */}
+                          <span className="text-sm font-semibold text-gray-600">
+                            {skill.level}%
+                          </span>
+                        </div>
+
+                        {/* Progress bar */}
+                        <div className="w-full h-4 rounded-full" style={{ backgroundColor: "#e1e8f0" }}>
+                          <div
+                            className="h-4 rounded-full shadow-md transition-all duration-700 ease-in-out"
+                            style={{
+                              width: `${skill.level}%`,
+                              backgroundColor: "#aeaeaeff",
+                            }}
+                          />
+                        </div>
+                      </div>
                     ))}
                   </div>
                 </div>
@@ -138,7 +193,9 @@ const Cards = () => {
                   key={education.degree}
                   className="flex flex-col md:flex-row items-start md:items-center gap-6"
                 >
-                  <div className="flex-shrink-0 text-blue-500 text-3xl">{education.icon}</div>
+                  <div className="flex-shrink-0 text-blue-500 text-3xl">
+                    {education.icon}
+                  </div>
                   <div>
                     <h2 className="text-2xl font-semibold">{education.degree}</h2>
                     <p className="text-gray-500 italic mb-2">
