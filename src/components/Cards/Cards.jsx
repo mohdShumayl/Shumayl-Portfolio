@@ -27,7 +27,7 @@ const skillsData = [
       { name: "EJS", level: 80 },
       { name: "JWT Auth", level: 90 },
       { name: "clerk Auth", level: 90 },
-      { name: "MongoDB / MySQL", level: 85 },
+      { name: "MongoDB / MySQL(Prisma)", level: 85 },
       { name: "RESTful APIs", level: 90 },
       { name: "WebSockets", level: 80 },
     ],
@@ -35,7 +35,7 @@ const skillsData = [
   {
     section: "DevOps & Cloud",
     skills: [
-      { name: "AWS EC2", level: 80 },
+      { name: "AWS", level: 80 },
       { name: "AWS Lambda", level: 65 },
       { name: "Docker", level: 85 },
       { name: "CI/CD", level: 60 },

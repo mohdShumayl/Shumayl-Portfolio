@@ -30,10 +30,10 @@ const data = [
     title: 'Portfolio',
   },
   {
-    href: 'https://github.com/mohdShumayl',
-    categoty: 'React.js ',
-    img: '/assets/work/sensai.png',
-    title: 'SensAI',
+    href: 'https://github.com/mohdShumayl/Luminai',
+    categoty: 'Next.js ',
+    img: '/assets/work/luminai.png',
+    title: 'LuminAI',
   },
   {
     href: 'https://github.com/mohdShumayl',
