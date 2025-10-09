@@ -532,7 +532,7 @@ function Hero() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "/assets/resume/mohdShumailResume.pdf",
+                                        href: "/assets/resume/shumail-resume.pdf",
                                         target: "_blank",
                                         rel: "noopener noreferrer",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1290,12 +1290,16 @@ const skillsData = [
         section: "Frontend",
         skills: [
             {
-                name: "HTML & CSS",
-                level: 90
+                name: "React.js",
+                level: 85
             },
             {
-                name: "Responsive Web Design",
-                level: 96
+                name: "Next.js",
+                level: 70
+            },
+            {
+                name: "HTML & CSS",
+                level: 90
             },
             {
                 name: "Tailwind",
@@ -1310,12 +1314,8 @@ const skillsData = [
                 level: 88
             },
             {
-                name: "React.js",
-                level: 85
-            },
-            {
-                name: "Next.js",
-                level: 80
+                name: "Shadcn UI ",
+                level: 70
             }
         ]
     },
@@ -1335,15 +1335,11 @@ const skillsData = [
                 level: 75
             },
             {
-                name: "EJS",
-                level: 80
-            },
-            {
-                name: "JWT Auth",
+                name: "AuthN and AuthZ",
                 level: 90
             },
             {
-                name: "MongoDB / MySQL",
+                name: "MongoDB / MySQL(Prisma)",
                 level: 85
             },
             {
@@ -1357,15 +1353,15 @@ const skillsData = [
         ]
     },
     {
-        section: "DevOps & Cloud",
+        section: "Additional skills",
         skills: [
             {
-                name: "AWS EC2",
-                level: 80
+                name: "Git",
+                level: 90
             },
             {
-                name: "AWS Lambda",
-                level: 65
+                name: "AWS(EC2, Lambda)",
+                level: 80
             },
             {
                 name: "Docker",
@@ -1376,34 +1372,8 @@ const skillsData = [
                 level: 60
             },
             {
-                name: "Cloudflare DNS",
-                level: 70
-            }
-        ]
-    },
-    {
-        section: "Version Control",
-        skills: [
-            {
-                name: "Git",
+                name: "Figma",
                 level: 90
-            },
-            {
-                name: "GitHub",
-                level: 88
-            },
-            {
-                name: "Bitbucket",
-                level: 75
-            }
-        ]
-    },
-    {
-        section: "iOS Development",
-        skills: [
-            {
-                name: "Xcode",
-                level: 60
             },
             {
                 name: "UIKit",
@@ -1412,31 +1382,6 @@ const skillsData = [
             {
                 name: "Swift",
                 level: 50
-            }
-        ]
-    },
-    {
-        section: "Other Skills",
-        skills: [
-            {
-                name: "Figma",
-                level: 90
-            },
-            {
-                name: "Problem Solving",
-                level: 85
-            },
-            {
-                name: "Collaboration",
-                level: 80
-            },
-            {
-                name: "Adaptability",
-                level: 82
-            },
-            {
-                name: "Time Management",
-                level: 85
             }
         ]
     }
@@ -1479,7 +1424,7 @@ const educationData = [
         description: "Completed Bachelor of Computer Applications (BCA) from IGNOU, Delhi, graduating with First Division.",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaGraduationCap"], {}, void 0, false, {
             fileName: "[project]/src/components/Cards/Cards.jsx",
-            lineNumber: 109,
+            lineNumber: 83,
             columnNumber: 11
         }, this)
     }
@@ -1501,7 +1446,7 @@ const Cards = ()=>{
                                 children: "My Skills"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 119,
+                                lineNumber: 93,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -1509,7 +1454,7 @@ const Cards = ()=>{
                                 children: "Experience"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 120,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -1517,13 +1462,13 @@ const Cards = ()=>{
                                 children: "Education"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 121,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 118,
+                        lineNumber: 92,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1539,7 +1484,7 @@ const Cards = ()=>{
                                             children: group.section
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 132,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1554,7 +1499,7 @@ const Cards = ()=>{
                                                                     children: skill.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 114,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1565,13 +1510,13 @@ const Cards = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                    lineNumber: 142,
+                                                                    lineNumber: 116,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 112,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1587,39 +1532,39 @@ const Cards = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                lineNumber: 149,
+                                                                lineNumber: 123,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 122,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, skill.name, true, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 111,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 135,
+                                            lineNumber: 109,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, group.section, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 102,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 126,
+                            lineNumber: 100,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 125,
+                        lineNumber: 99,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1635,7 +1580,7 @@ const Cards = ()=>{
                                             children: experience.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 173,
+                                            lineNumber: 147,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1649,7 +1594,7 @@ const Cards = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 174,
+                                            lineNumber: 148,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1657,7 +1602,7 @@ const Cards = ()=>{
                                             children: experience.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 177,
+                                            lineNumber: 151,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1666,28 +1611,28 @@ const Cards = ()=>{
                                                     children: achievement
                                                 }, achievement, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 180,
+                                                    lineNumber: 154,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 178,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, experience.title, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 169,
+                                    lineNumber: 143,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 167,
+                            lineNumber: 141,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 166,
+                        lineNumber: 140,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1703,7 +1648,7 @@ const Cards = ()=>{
                                             children: education.icon
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 196,
+                                            lineNumber: 170,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1713,7 +1658,7 @@ const Cards = ()=>{
                                                     children: education.degree
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 200,
+                                                    lineNumber: 174,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1725,7 +1670,7 @@ const Cards = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 175,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1733,45 +1678,45 @@ const Cards = ()=>{
                                                     children: education.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 204,
+                                                    lineNumber: 178,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 199,
+                                            lineNumber: 173,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, education.degree, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 192,
+                                    lineNumber: 166,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 190,
+                            lineNumber: 164,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 189,
+                        lineNumber: 163,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                lineNumber: 117,
+                lineNumber: 91,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Cards/Cards.jsx",
-            lineNumber: 116,
+            lineNumber: 90,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Cards/Cards.jsx",
-        lineNumber: 115,
+        lineNumber: 89,
         columnNumber: 5
     }, this);
 };
@@ -1898,91 +1843,132 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/ui/badge.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-icons/fi/index.mjs [app-client] (ecmascript)");
 ;
+var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
 ;
-const Workitem = ({ href, categoty, img, title })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-        href: href,
-        className: "group",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-[300px] p-8 rounded-[30px] flex items-center justify-center mb-6 relative overflow-hidden bg-[#f4f4f4]",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
-                        className: "bg-primary text-base z-40 absolute top-6 left-6 capitalize",
-                        children: categoty
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Work/Workitem.jsx",
-                        lineNumber: 10,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        alt: "",
-                        src: img,
-                        fill: true,
-                        priority: true,
-                        quality: 100,
-                        className: "object-cover group-hover:scale-105 transition-all duration-500"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Work/Workitem.jsx",
-                        lineNumber: 11,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Work/Workitem.jsx",
-                lineNumber: 9,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center justify-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-1",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+;
+const Workitem = ({ href, categoty, img, title, desc, techStack })=>{
+    _s();
+    const [isHovered, setIsHovered] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const techArray = techStack ? techStack.split('|').map((t)=>t.trim()) : [];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "group relative flex flex-col",
+        onMouseEnter: ()=>setIsHovered(true),
+        onMouseLeave: ()=>setIsHovered(false),
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: href,
+            className: "group block relative",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-full h-[300px] rounded-[30px] overflow-hidden relative bg-[#f4f4f4] shadow-lg transition-transform duration-500 group-hover:scale-105",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                            className: "bg-primary text-base absolute top-6 left-6 z-30 capitalize",
+                            children: categoty
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Work/Workitem.jsx",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            alt: title,
+                            src: img,
+                            fill: true,
+                            priority: true,
+                            quality: 100,
+                            className: `object-cover transition-transform duration-500 ${isHovered ? 'scale-110 blur-sm' : 'scale-100'}`
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Work/Workitem.jsx",
+                            lineNumber: 25,
+                            columnNumber: 11
+                        }, this),
+                        isHovered && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 bg-black/50 backdrop-blur-sm text-white flex flex-col justify-center items-center p-6 rounded-[30px] transition-all duration-300",
+                            children: [
+                                desc && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-sm text-gray-200 font-semibold mb-2 text-center",
+                                    children: desc
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Work/Workitem.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 24
+                                }, this),
+                                techArray.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-wrap justify-center gap-2 mt-1",
+                                    children: techArray.map((tech, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
+                                            className: "bg-gray-200 text-gray-800 text-xs",
+                                            children: tech
+                                        }, index, false, {
+                                            fileName: "[project]/src/components/Work/Workitem.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 21
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Work/Workitem.jsx",
+                                    lineNumber: 39,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/Work/Workitem.jsx",
+                            lineNumber: 36,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Work/Workitem.jsx",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-center justify-between mt-3",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "h3",
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Workitem.jsx",
-                            lineNumber: 15,
-                            columnNumber: 17
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Work/Workitem.jsx",
-                        lineNumber: 14,
-                        columnNumber: 13
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "bg-slate-400 text-white rounded-full w-[48px] h-[48px] flex items-center justify-center -rotate-45 group-hover:rotate-0 transition-all duration-500",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowDownRight"], {
-                            className: "text-2xl"
+                            lineNumber: 51,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "bg-slate-400 text-white rounded-full w-[48px] h-[48px] flex items-center justify-center -rotate-45 group-hover:rotate-0 transition-all duration-500",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowDownRight"], {
+                                className: "text-2xl"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/Work/Workitem.jsx",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Workitem.jsx",
-                            lineNumber: 17,
-                            columnNumber: 181
+                            lineNumber: 52,
+                            columnNumber: 11
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Work/Workitem.jsx",
-                        lineNumber: 17,
-                        columnNumber: 13
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/Work/Workitem.jsx",
-                lineNumber: 13,
-                columnNumber: 9
-            }, this)
-        ]
-    }, void 0, true, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Work/Workitem.jsx",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Work/Workitem.jsx",
+            lineNumber: 18,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/Work/Workitem.jsx",
-        lineNumber: 8,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 };
+_s(Workitem, "FPQn8a98tPjpohC7NUYORQR8GJE=");
 _c = Workitem;
 const __TURBOPACK__default__export__ = Workitem;
 var _c;
@@ -1996,8 +1982,9 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// Work.jsx
 __turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
+    "default": (()=>Work)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
@@ -2018,43 +2005,49 @@ const data = [
         href: 'https://github.com/mohdShumayl/Bloghive',
         categoty: 'FullStack',
         img: '/assets/work/blogHive.png',
-        title: 'BlogHive'
+        title: 'BlogHive',
+        desc: "A secure and dynamic blogging platform built during my 2023 internship. Bloghive allows users to create, explore, and interact with blogs through authentication, commenting, and media uploads.",
+        techStack: "Node.js | Express.js | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
     },
     {
         href: 'https://github.com/mohdShumayl/shortly',
         categoty: 'FullStack',
         img: '/assets/work/shortly.png',
-        title: 'Shortly'
+        title: 'Shortly',
+        desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
+        techStack: "Node.js | Express.js | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
     },
     {
-        href: 'https://github.com/mohdShumayl/chatApp/',
-        categoty: 'FullStack',
-        img: '/assets/work/chatApp.png',
-        title: 'Chat App'
+        href: 'https://luminai-careerinsights.vercel.app/',
+        categoty: 'Next.js',
+        img: '/assets/work/luminai.png',
+        title: 'LuminAI',
+        desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
+        techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
     },
     {
         href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
         categoty: 'Next.js',
         img: '/assets/work/portfolio.png',
-        title: 'Portfolio'
+        title: 'Portfolio',
+        desc: "A modern, responsive portfolio built with Next.js to showcase my journey, skills, and projects. It features a clean UI and smooth navigation.",
+        techStack: "Next.js | React.js | Responsive UI | HTML | Tailwind | SEO"
     },
     {
-        href: 'https://github.com/mohdShumayl',
-        categoty: 'React.js ',
-        img: '/assets/work/sensai.png',
-        title: 'SensAI'
+        href: 'https://github.com/mohdShumayl/chatApp/',
+        categoty: 'FullStack',
+        img: '/assets/work/chatApp.png',
+        title: 'Chat App',
+        desc: "A practice project to build a live chat application using Socket.IO, enabling multiple users to send and receive messages instantly.",
+        techStack: "Node.js | Express.js | Socket.IO | HTML | CSS | Bootstrap | JavaScript"
     },
     {
         href: 'https://github.com/mohdShumayl',
         categoty: 'iOS',
         img: '/assets/work/ios.png',
-        title: 'iOS App'
-    },
-    {
-        href: 'https://github.com/mohdShumayl',
-        categoty: 'iOS',
-        img: '/assets/work/ios2.png',
-        title: 'iOS App'
+        title: 'iOS App',
+        desc: "A mobile application that provides real-time weather updates and forecasts. Users can search for locations, view current weather conditions, intuitive interface. Built to practice API integration and iOS app development.",
+        techStack: "Swift | SwiftUI | URLSession / Networking | OpenWeatherMap API | Xcode"
     }
 ];
 function Work() {
@@ -2069,16 +2062,15 @@ function Work() {
             }))
     ];
     const [tabValue, setTabValue] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('all');
-    const [visibleItems, setVisibleItems] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('9');
     const filterWork = tabValue === 'all' ? data.filter((item)=>item.categoty !== 'all') : data.filter((item)=>item.categoty === tabValue);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "pt-24 min-h-[1000px] ",
+        className: "pt-24 min-h-[1000px]",
         id: "work",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "container mx-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tabs"], {
                 defaultValue: "all",
-                className: "w-full flex flex-col ",
+                className: "w-full flex flex-col",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col xl:flex-row items-center xl:items-start xl:justify-between mb-[30px]",
@@ -2088,23 +2080,21 @@ function Work() {
                                 textStyles: "h2 mb-[30px] xl:mb-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsList"], {
-                                className: "   grid grid-cols-3 gap-2    sm:grid-cols-3 sm:gap-3    md:flex md:flex-row md:gap-0    max-w-full h-full mb-[30px]   ",
-                                children: tabData.map((item, index)=>{
-                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
+                                className: "grid grid-cols-3 gap-2 sm:grid-cols-3 sm:gap-3 md:flex md:flex-row md:gap-0 max-w-full h-full mb-[30px]",
+                                children: tabData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
                                         value: item.categoty,
                                         className: "capitalize text-sm sm:text-base w-full",
                                         onClick: ()=>setTabValue(item.categoty),
                                         children: item.categoty
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 84,
-                                        columnNumber: 19
-                                    }, this);
-                                })
+                                        lineNumber: 76,
+                                        columnNumber: 17
+                                    }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
                                 lineNumber: 74,
@@ -2113,7 +2103,7 @@ function Work() {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -2122,54 +2112,54 @@ function Work() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "grid grid-cols-1 lg:grid-cols-3 gap-[30px]",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                                children: filterWork.slice(0, visibleItems).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                children: filterWork.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                        layout: true,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Work$2f$Workitem$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             ...item
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Work/Work.jsx",
-                                            lineNumber: 101,
+                                            lineNumber: 92,
                                             columnNumber: 21
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 100,
+                                        lineNumber: 91,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 98,
+                                lineNumber: 89,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Work.jsx",
-                            lineNumber: 97,
+                            lineNumber: 88,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 96,
+                        lineNumber: 87,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work/Work.jsx",
-                lineNumber: 70,
+                lineNumber: 71,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Work/Work.jsx",
-            lineNumber: 69,
+            lineNumber: 70,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Work/Work.jsx",
-        lineNumber: 68,
+        lineNumber: 69,
         columnNumber: 5
     }, this);
 }
-_s(Work, "WQSOFDSS98iaHxFcfVDBLI6mkRA=");
+_s(Work, "bMV5ItgqgDKIVUd671QGv/B5fZ8=");
 _c = Work;
-const __TURBOPACK__default__export__ = Work;
 var _c;
 __turbopack_refresh__.register(_c, "Work");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
