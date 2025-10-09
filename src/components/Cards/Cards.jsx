@@ -23,9 +23,10 @@ const skillsData = [
       { name: "Express.js", level: 92 },
       { name: "TypeScript", level: 75 },
       { name: "AuthN and AuthZ", level: 90 },
-      { name: "MongoDB / MySQL(Prisma)", level: 85 },
+      { name: "MongoDB / MySQL", level: 85 },
       { name: "RESTful APIs", level: 90 },
-      { name: "WebSockets", level: 80 },
+      { name: "AI-driven APIs", level: 80 },
+      { name: "WebSockets", level: 80 }
     ],
   },
   {
