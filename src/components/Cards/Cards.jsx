@@ -26,7 +26,7 @@ const skillsData = [
       { name: "AuthN and AuthZ", level: 90 },
       { name: "MongoDB / MySQL", level: 85 },
       { name: "RESTful APIs", level: 90 },
-      { name: "AI-driven APIs", level: 80 },
+      { name: "Gen AI / AI-driven APIs", level: 80 },
       { name: "WebSockets", level: 80 }
     ],
   },
