@@ -7,16 +7,14 @@ const skillsData = [
   {
     section: "Frontend",
     skills: [
+      { name: "React.js", level: 85 },
+      { name: "Next.js", level: 70 },
       { name: "HTML & CSS", level: 90 },
-      { name: "Responsive Web Design", level: 96 },
       { name: "Tailwind", level: 80 },
       { name: "Bootstrap", level: 96 },
       { name: "JavaScript (ES6+)", level: 88 },
-      { name: "React.js", level: 85 },
-      { name: "Next.js", level: 80 },      
       { name: "Shadcn UI ", level: 70 },
-      { name: "Wordpress", level: 55 },
-    ],
+    ]
   },
   {
     section: "Backend",
@@ -24,52 +22,24 @@ const skillsData = [
       { name: "Node.js", level: 85 },
       { name: "Express.js", level: 92 },
       { name: "TypeScript", level: 75 },
-      { name: "EJS", level: 80 },
-      { name: "JWT Auth", level: 90 },
-      { name: "clerk Auth", level: 90 },
+      { name: "AuthN and AuthZ", level: 90 },
       { name: "MongoDB / MySQL(Prisma)", level: 85 },
       { name: "RESTful APIs", level: 90 },
       { name: "WebSockets", level: 80 },
     ],
   },
   {
-    section: "DevOps & Cloud",
-    skills: [
-      { name: "AWS", level: 80 },
-      { name: "AWS Lambda", level: 65 },
-      { name: "Docker", level: 85 },
-      { name: "CI/CD", level: 60 },
-      { name: "Cloudflare DNS", level: 70 },
-    ],
-  },
-  {
-    section: "Version Control",
+    section: "Additional skills",
     skills: [
       { name: "Git", level: 90 },
-      { name: "GitHub", level: 88 },
-      { name: "Bitbucket", level: 75 },
-    ],
-  },
-
-  {
-    section: "iOS Development",
-    skills: [
-      { name: "Xcode", level: 60 },
+      { name: "AWS(EC2, Lambda)", level: 80 },
+      { name: "Docker", level: 85 },
+      { name: "CI/CD", level: 60 },
+      { name: "Figma", level: 90 },
       { name: "UIKit", level: 55 },
       { name: "Swift", level: 50 },
     ],
-  },
-  {
-    section: "Other Skills",
-    skills: [
-      { name: "Figma", level: 90 },
-      { name: "Visual Composer", level: 90 },
-      { name: "Problem Solving", level: 85 },
-      { name: "Collaboration", level: 80 },
-      { name: "Adaptability", level: 82 },
-      { name: "Time Management", level: 85 },
-    ],
-  },
+  }
 ];
 
 const experienceData = [

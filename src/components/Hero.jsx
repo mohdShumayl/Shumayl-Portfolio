@@ -35,7 +35,7 @@ function Hero() {
 
             {/* Download CV Button */}
             <a
-              href="/assets/resume/mohdShumailResume.pdf"
+              href="/assets/resume/shumail-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
