@@ -12,7 +12,7 @@ const data = [
     img: '/assets/work/blogHive.png',
     title: 'BlogHive',
     desc: "A secure and dynamic blogging platform built during my 2023 internship. Bloghive allows users to create, explore, and interact with blogs through authentication, commenting, and media uploads.",
-    techStack: "Node.js | Express.js | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
+    techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
   },
   {
     href: 'https://github.com/mohdShumayl/shortly',
@@ -20,7 +20,7 @@ const data = [
     img: '/assets/work/shortly.png',
     title: 'Shortly',
     desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
-    techStack: "Node.js | Express.js | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
+    techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
   },
   {
     href: 'https://luminai-careerinsights.vercel.app/',
@@ -44,7 +44,7 @@ const data = [
     img: '/assets/work/chatApp.png',
     title: 'Chat App',
     desc: "A practice project to build a live chat application using Socket.IO, enabling multiple users to send and receive messages instantly.",
-    techStack: "Node.js | Express.js | Socket.IO | HTML | CSS | Bootstrap | JavaScript"
+    techStack: "Node.js | Express.js | EJS | Socket.IO | HTML | CSS | Bootstrap | JavaScript"
   },
   {
     href: 'https://github.com/mohdShumayl',
