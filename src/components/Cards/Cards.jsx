@@ -9,6 +9,7 @@ const skillsData = [
     skills: [
       { name: "React.js", level: 85 },
       { name: "Next.js", level: 70 },
+      { name: "EJS", level: 70 },
       { name: "HTML & CSS", level: 90 },
       { name: "Tailwind", level: 80 },
       { name: "Bootstrap", level: 96 },
@@ -37,6 +38,7 @@ const skillsData = [
       { name: "Docker", level: 85 },
       { name: "CI/CD", level: 60 },
       { name: "Figma", level: 90 },
+      { name: "Xcode", level: 90 },
       { name: "UIKit", level: 55 },
       { name: "Swift", level: 50 },
     ],
