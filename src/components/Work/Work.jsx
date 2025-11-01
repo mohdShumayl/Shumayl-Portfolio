@@ -73,7 +73,7 @@ const data = [
 
   {
     href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
-    categoty: 'Next.js',
+    categoty: 'React/Next.js',
     img: '/assets/work/portfolio.png',
     title: 'Portfolio',
     desc: "A modern, responsive portfolio built with Next.js to showcase my journey, skills, and projects. It features a clean UI and smooth navigation.",
