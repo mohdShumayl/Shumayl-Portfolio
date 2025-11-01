@@ -1298,6 +1298,10 @@ const skillsData = [
                 level: 70
             },
             {
+                name: "EJS",
+                level: 70
+            },
+            {
                 name: "HTML & CSS",
                 level: 90
             },
@@ -1339,12 +1343,16 @@ const skillsData = [
                 level: 90
             },
             {
-                name: "MongoDB / MySQL(Prisma)",
+                name: "MongoDB / MySQL",
                 level: 85
             },
             {
                 name: "RESTful APIs",
                 level: 90
+            },
+            {
+                name: "Gen AI / AI-driven APIs",
+                level: 80
             },
             {
                 name: "WebSockets",
@@ -1373,6 +1381,10 @@ const skillsData = [
             },
             {
                 name: "Figma",
+                level: 90
+            },
+            {
+                name: "Xcode",
                 level: 90
             },
             {
@@ -1424,7 +1436,7 @@ const educationData = [
         description: "Completed Bachelor of Computer Applications (BCA) from IGNOU, Delhi, graduating with First Division.",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaGraduationCap"], {}, void 0, false, {
             fileName: "[project]/src/components/Cards/Cards.jsx",
-            lineNumber: 83,
+            lineNumber: 86,
             columnNumber: 11
         }, this)
     }
@@ -1446,7 +1458,7 @@ const Cards = ()=>{
                                 children: "My Skills"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 93,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -1454,7 +1466,7 @@ const Cards = ()=>{
                                 children: "Experience"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 94,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsTrigger"], {
@@ -1462,13 +1474,13 @@ const Cards = ()=>{
                                 children: "Education"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                lineNumber: 95,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 92,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1484,7 +1496,7 @@ const Cards = ()=>{
                                             children: group.section
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 109,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1499,7 +1511,7 @@ const Cards = ()=>{
                                                                     children: skill.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                    lineNumber: 114,
+                                                                    lineNumber: 117,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1510,13 +1522,13 @@ const Cards = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                    lineNumber: 116,
+                                                                    lineNumber: 119,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                            lineNumber: 112,
+                                                            lineNumber: 115,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1532,39 +1544,39 @@ const Cards = ()=>{
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                                lineNumber: 123,
+                                                                lineNumber: 126,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                            lineNumber: 122,
+                                                            lineNumber: 125,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, skill.name, true, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 114,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 112,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, group.section, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 102,
+                                    lineNumber: 105,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 100,
+                            lineNumber: 103,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 99,
+                        lineNumber: 102,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1580,7 +1592,7 @@ const Cards = ()=>{
                                             children: experience.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 147,
+                                            lineNumber: 150,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1594,7 +1606,7 @@ const Cards = ()=>{
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 148,
+                                            lineNumber: 151,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1602,7 +1614,7 @@ const Cards = ()=>{
                                             children: experience.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 151,
+                                            lineNumber: 154,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1611,28 +1623,28 @@ const Cards = ()=>{
                                                     children: achievement
                                                 }, achievement, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 154,
+                                                    lineNumber: 157,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 152,
+                                            lineNumber: 155,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, experience.title, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 143,
+                                    lineNumber: 146,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 141,
+                            lineNumber: 144,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 140,
+                        lineNumber: 143,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -1648,7 +1660,7 @@ const Cards = ()=>{
                                             children: education.icon
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 170,
+                                            lineNumber: 173,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1658,7 +1670,7 @@ const Cards = ()=>{
                                                     children: education.degree
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 177,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1670,7 +1682,7 @@ const Cards = ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 178,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1678,45 +1690,45 @@ const Cards = ()=>{
                                                     children: education.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 181,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                                            lineNumber: 173,
+                                            lineNumber: 176,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, education.degree, true, {
                                     fileName: "[project]/src/components/Cards/Cards.jsx",
-                                    lineNumber: 166,
+                                    lineNumber: 169,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/Cards.jsx",
-                            lineNumber: 164,
+                            lineNumber: 167,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Cards.jsx",
-                        lineNumber: 163,
+                        lineNumber: 166,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Cards/Cards.jsx",
-                lineNumber: 91,
+                lineNumber: 94,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Cards/Cards.jsx",
-            lineNumber: 90,
+            lineNumber: 93,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Cards/Cards.jsx",
-        lineNumber: 89,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 };
@@ -2002,12 +2014,60 @@ var _s = __turbopack_refresh__.signature();
 ;
 const data = [
     {
+        href: 'https://luminai-careerinsights.vercel.app/',
+        categoty: 'React/Next.js',
+        img: '/assets/work/luminai.png',
+        title: 'LuminAI',
+        desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
+        techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
+    },
+    {
+        href: 'https://www.its-your-trip.com/',
+        categoty: 'React/Next.js',
+        img: '/assets/work/iyt.png',
+        title: 'IYT - Its Your Trip',
+        desc: "Migrated a Germany-based multi-brand travel portal (IYT) from legacy PHP Yii to a modern React & Next.js architecture, delivering four sub-platforms now deployed on staging servers for testing & final QA.",
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
+        href: 'https://www.colibri-travel.de/',
+        categoty: 'React/Next.js',
+        img: '/assets/work/colibri.png',
+        title: 'Colibri Travel',
+        desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
+        href: 'https://www.rent-a-guide.de/',
+        categoty: 'React/Next.js',
+        img: '/assets/work/rag.png',
+        title: 'Rent a Guide',
+        desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
+        href: 'https://www.eastasiatours.de',
+        categoty: 'React/Next.js',
+        img: '/assets/work/eat.png',
+        title: 'East Asia Tours',
+        desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
+        href: 'https://www.',
+        categoty: 'React/Next.js',
+        img: '/assets/work/msa.png',
+        title: 'MSA',
+        desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
         href: 'https://github.com/mohdShumayl/Bloghive',
         categoty: 'FullStack',
         img: '/assets/work/blogHive.png',
         title: 'BlogHive',
         desc: "A secure and dynamic blogging platform built during my 2023 internship. Bloghive allows users to create, explore, and interact with blogs through authentication, commenting, and media uploads.",
-        techStack: "Node.js | Express.js | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
+        techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
     },
     {
         href: 'https://github.com/mohdShumayl/shortly',
@@ -2015,15 +2075,7 @@ const data = [
         img: '/assets/work/shortly.png',
         title: 'Shortly',
         desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
-        techStack: "Node.js | Express.js | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
-    },
-    {
-        href: 'https://luminai-careerinsights.vercel.app/',
-        categoty: 'Next.js',
-        img: '/assets/work/luminai.png',
-        title: 'LuminAI',
-        desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
-        techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
+        techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
     },
     {
         href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
@@ -2039,7 +2091,7 @@ const data = [
         img: '/assets/work/chatApp.png',
         title: 'Chat App',
         desc: "A practice project to build a live chat application using Socket.IO, enabling multiple users to send and receive messages instantly.",
-        techStack: "Node.js | Express.js | Socket.IO | HTML | CSS | Bootstrap | JavaScript"
+        techStack: "Node.js | Express.js | EJS | Socket.IO | HTML | CSS | Bootstrap | JavaScript"
     },
     {
         href: 'https://github.com/mohdShumayl',
@@ -2080,7 +2132,7 @@ function Work() {
                                 textStyles: "h2 mb-[30px] xl:mb-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 73,
+                                lineNumber: 114,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsList"], {
@@ -2092,18 +2144,18 @@ function Work() {
                                         children: item.categoty
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 74,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 72,
+                        lineNumber: 113,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -2118,43 +2170,43 @@ function Work() {
                                             ...item
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Work/Work.jsx",
-                                            lineNumber: 92,
+                                            lineNumber: 133,
                                             columnNumber: 21
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 91,
+                                        lineNumber: 132,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 89,
+                                lineNumber: 130,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Work.jsx",
-                            lineNumber: 88,
+                            lineNumber: 129,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 87,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work/Work.jsx",
-                lineNumber: 71,
+                lineNumber: 112,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Work/Work.jsx",
-            lineNumber: 70,
+            lineNumber: 111,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Work/Work.jsx",
-        lineNumber: 69,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }
@@ -2936,7 +2988,7 @@ const Footer = ()=>{
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "font-light text-white",
-                        children: "Copyright © 2025,All right reserved."
+                        children: "Copyright © 2026,All right reserved."
                     }, void 0, false, {
                         fileName: "[project]/src/components/Footer.jsx",
                         lineNumber: 9,

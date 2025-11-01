@@ -7,6 +7,54 @@ import Workitem from "./Workitem"
 
 const data = [
   {
+    href: 'https://luminai-careerinsights.vercel.app/',
+    categoty: 'React/Next.js',
+    img: '/assets/work/luminai.png',
+    title: 'LuminAI',
+    desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
+    techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
+  },
+  {
+    href: 'https://www.its-your-trip.com/',
+    categoty: 'React/Next.js',
+    img: '/assets/work/iyt.png',
+    title: 'IYT - Its Your Trip',
+    desc: "Migrated a Germany-based multi-brand travel portal (IYT) from legacy PHP Yii to a modern React & Next.js architecture, delivering four sub-platforms now deployed on staging servers for testing & final QA.",
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+  },
+  {
+    href: 'https://www.colibri-travel.de/',
+    categoty: 'React/Next.js',
+    img: '/assets/work/colibri.png',
+    title: 'Colibri Travel',
+    desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+  },
+  {
+    href: 'https://www.rent-a-guide.de/',
+    categoty: 'React/Next.js',
+    img: '/assets/work/rag.png',
+    title: 'Rent a Guide',
+    desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+  },
+  {
+    href: 'https://www.eastasiatours.de',
+    categoty: 'React/Next.js',
+    img: '/assets/work/eat.png',
+    title: 'East Asia Tours',
+    desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+  },
+  {
+    href: 'https://www.',
+    categoty: 'React/Next.js',
+    img: '/assets/work/msa.png',
+    title: 'MSA',
+    desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+  },
+  {
     href: 'https://github.com/mohdShumayl/Bloghive',
     categoty: 'FullStack',
     img: '/assets/work/blogHive.png',
@@ -22,14 +70,7 @@ const data = [
     desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
     techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
   },
-  {
-    href: 'https://luminai-careerinsights.vercel.app/',
-    categoty: 'Next.js',
-    img: '/assets/work/luminai.png',
-    title: 'LuminAI',
-    desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
-    techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
-  },
+
   {
     href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
     categoty: 'Next.js',
@@ -59,7 +100,7 @@ const data = [
 export default function Work() {
   const uniqueCategories = Array.from(new Set(data.map((item) => item.categoty)))
   const tabData = [{ categoty: 'all' }, ...uniqueCategories.map((categoty) => ({ categoty }))]
-  
+
   const [tabValue, setTabValue] = useState('all')
 
   const filterWork =
