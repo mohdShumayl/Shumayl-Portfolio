@@ -38,7 +38,7 @@ const Workitem = ({ href, categoty, img, title, desc, techStack }) => {
               {techArray.length > 0 && (
                 <div className="flex flex-wrap justify-center gap-2 mt-1">
                   {techArray.map((tech, index) => (
-                    <Badge key={index} className="bg-gray-200 text-gray-800 text-xs">{tech}</Badge>
+                    <Badge key={index} className="bg-gray-200 text-white-800 text-xs">{tech}</Badge>
                   ))}
                 </div>
               )}
