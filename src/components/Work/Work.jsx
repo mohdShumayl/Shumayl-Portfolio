@@ -20,7 +20,7 @@ const data = [
     img: '/assets/work/iyt.png',
     title: 'IYT - Its Your Trip',
     desc: "Migrated a Germany-based multi-brand travel portal (IYT) from legacy PHP Yii to a modern React & Next.js architecture, delivering four sub-platforms now deployed on staging servers for testing & final QA.",
-    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
     href: 'https://www.colibri-travel.de/',
@@ -28,7 +28,7 @@ const data = [
     img: '/assets/work/colibri.png',
     title: 'Colibri Travel',
     desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
     href: 'https://www.rent-a-guide.de/',
@@ -36,7 +36,7 @@ const data = [
     img: '/assets/work/rag.png',
     title: 'Rent a Guide',
     desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
     href: 'https://www.eastasiatours.de',
@@ -44,7 +44,7 @@ const data = [
     img: '/assets/work/eat.png',
     title: 'East Asia Tours',
     desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
     href: 'https://www.',
@@ -52,7 +52,7 @@ const data = [
     img: '/assets/work/msa.png',
     title: 'MSA',
     desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
     href: 'https://github.com/mohdShumayl/Bloghive',
