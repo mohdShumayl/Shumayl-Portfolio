@@ -2027,7 +2027,7 @@ const data = [
         img: '/assets/work/iyt.png',
         title: 'IYT - Its Your Trip',
         desc: "Migrated a Germany-based multi-brand travel portal (IYT) from legacy PHP Yii to a modern React & Next.js architecture, delivering four sub-platforms now deployed on staging servers for testing & final QA.",
-        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
     },
     {
         href: 'https://www.colibri-travel.de/',
@@ -2035,7 +2035,7 @@ const data = [
         img: '/assets/work/colibri.png',
         title: 'Colibri Travel',
         desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
     },
     {
         href: 'https://www.rent-a-guide.de/',
@@ -2043,7 +2043,7 @@ const data = [
         img: '/assets/work/rag.png',
         title: 'Rent a Guide',
         desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
     },
     {
         href: 'https://www.eastasiatours.de',
@@ -2051,7 +2051,7 @@ const data = [
         img: '/assets/work/eat.png',
         title: 'East Asia Tours',
         desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
     },
     {
         href: 'https://www.',
@@ -2059,7 +2059,15 @@ const data = [
         img: '/assets/work/msa.png',
         title: 'MSA',
         desc: "A sub-brand of IYT — migrated from PHP Yii to a modern React architecture and deployed on staging for performance testing & final QA before production release.",
-        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Forms | Styled Components / SCSS | Bootstrap | shadcn/ui"
+        techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
+    },
+    {
+        href: 'http://clc-uk.org/',
+        categoty: 'FullStack',
+        img: '/assets/work/clc.jpeg',
+        title: 'CLC-Council for Licensed Conveyancers',
+        desc: "Worked on a Leading UK-based Platform CLC-uk Council for Licensed Conveyancers, a UK regulatory body for specialist property lawyers, Enhanced it through custom WordPress theming, Visual Composer layouts, and responsive UI improvements using HTML, CSS, Visual Composer, JavaScript & jQuery.",
+        techStack: "HTML | CSS | Bootstrap | jQuery | Wordpress | Wordpress Page Builder | Visual Composer"
     },
     {
         href: 'https://github.com/mohdShumayl/Bloghive',
@@ -2067,7 +2075,7 @@ const data = [
         img: '/assets/work/blogHive.png',
         title: 'BlogHive',
         desc: "A secure and dynamic blogging platform built during my 2023 internship. Bloghive allows users to create, explore, and interact with blogs through authentication, commenting, and media uploads.",
-        techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
+        techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | JWT | Multer | HTML & CSS | Bootstrap"
     },
     {
         href: 'https://github.com/mohdShumayl/shortly',
@@ -2075,15 +2083,15 @@ const data = [
         img: '/assets/work/shortly.png',
         title: 'Shortly',
         desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
-        techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
+        techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | HTML & CSS | Bootstrap"
     },
     {
         href: 'https://github.com/mohdShumayl/Shumayl-Portfolio',
-        categoty: 'Next.js',
+        categoty: 'React/Next.js',
         img: '/assets/work/portfolio.png',
         title: 'Portfolio',
         desc: "A modern, responsive portfolio built with Next.js to showcase my journey, skills, and projects. It features a clean UI and smooth navigation.",
-        techStack: "Next.js | React.js | Responsive UI | HTML | Tailwind | SEO"
+        techStack: "Next.js | React.js | Responsive UI | shadcn/ui | Tailwind | SEO"
     },
     {
         href: 'https://github.com/mohdShumayl/chatApp/',
@@ -2132,7 +2140,7 @@ function Work() {
                                 textStyles: "h2 mb-[30px] xl:mb-0"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 114,
+                                lineNumber: 122,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsList"], {
@@ -2144,18 +2152,18 @@ function Work() {
                                         children: item.categoty
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 117,
+                                        lineNumber: 125,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 115,
+                                lineNumber: 123,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 113,
+                        lineNumber: 121,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$tabs$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TabsContent"], {
@@ -2170,43 +2178,43 @@ function Work() {
                                             ...item
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Work/Work.jsx",
-                                            lineNumber: 133,
+                                            lineNumber: 141,
                                             columnNumber: 21
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/components/Work/Work.jsx",
-                                        lineNumber: 132,
+                                        lineNumber: 140,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Work/Work.jsx",
-                                lineNumber: 130,
+                                lineNumber: 138,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Work/Work.jsx",
-                            lineNumber: 129,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Work/Work.jsx",
-                        lineNumber: 128,
+                        lineNumber: 136,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Work/Work.jsx",
-                lineNumber: 112,
+                lineNumber: 120,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/Work/Work.jsx",
-            lineNumber: 111,
+            lineNumber: 119,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Work/Work.jsx",
-        lineNumber: 110,
+        lineNumber: 118,
         columnNumber: 5
     }, this);
 }

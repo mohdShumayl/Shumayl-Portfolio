@@ -14,7 +14,7 @@ const data = [
     desc: "An AI-powered platform that provides real-time career insights with secure authentication, smooth UI, and scalable backend infrastructure.",
     techStack: "Next.js | React | Gemini | Tailwind CSS | shadcn/ui | Prisma | PostgreSQL | Neon | Inngest | Clerk"
   },
-  {
+    {
     href: 'https://www.its-your-trip.com/',
     categoty: 'React/Next.js',
     img: '/assets/work/iyt.png',
@@ -55,12 +55,20 @@ const data = [
     techStack: "Next.js | React.js |  React Hooks | Reusable UI components | Context API | React Hook Form | Styled Components / SCSS | Bootstrap | shadcn/ui"
   },
   {
+    href: 'http://clc-uk.org/',
+    categoty: 'FullStack',
+    img: '/assets/work/clc.jpeg',
+    title: 'CLC-Council for Licensed Conveyancers',
+    desc: "Worked on a Leading UK-based Platform CLC-uk Council for Licensed Conveyancers, a UK regulatory body for specialist property lawyers, Enhanced it through custom WordPress theming, Visual Composer layouts, and responsive UI improvements using HTML, CSS, Visual Composer, JavaScript & jQuery.",
+    techStack: "HTML | CSS | Bootstrap | jQuery | Wordpress | Wordpress Page Builder | Visual Composer"
+  },
+  {
     href: 'https://github.com/mohdShumayl/Bloghive',
     categoty: 'FullStack',
     img: '/assets/work/blogHive.png',
     title: 'BlogHive',
     desc: "A secure and dynamic blogging platform built during my 2023 internship. Bloghive allows users to create, explore, and interact with blogs through authentication, commenting, and media uploads.",
-    techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | EJS | JWT | Multer | HTML & CSS | Bootstrap"
+    techStack: "Node.js | Express.js | EJS | MongoDB | Mongoose | JWT | Multer | HTML & CSS | Bootstrap"
   },
   {
     href: 'https://github.com/mohdShumayl/shortly',
@@ -68,7 +76,7 @@ const data = [
     img: '/assets/work/shortly.png',
     title: 'Shortly',
     desc: "A Bitly-like URL shortener built during my internship, featuring secure authentication, analytics, and an admin panel for management.",
-    techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | EJS | HTML & CSS | Bootstrap"
+    techStack: "Node.js | Express.js | EJS | MongoDB | JWT | bcrypt | HTML & CSS | Bootstrap"
   },
 
   {
@@ -77,7 +85,7 @@ const data = [
     img: '/assets/work/portfolio.png',
     title: 'Portfolio',
     desc: "A modern, responsive portfolio built with Next.js to showcase my journey, skills, and projects. It features a clean UI and smooth navigation.",
-    techStack: "Next.js | React.js | Responsive UI | HTML | Tailwind | SEO"
+    techStack: "Next.js | React.js | Responsive UI | shadcn/ui | Tailwind | SEO"
   },
   {
     href: 'https://github.com/mohdShumayl/chatApp/',
